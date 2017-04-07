@@ -9,5 +9,11 @@ body {
 .header {
   height: 200px;
   text-align: center;
+  }
+
+.name {
   font-size: 100px;
-}
+  }
+
+.bio {
+  font-size: 48px;
