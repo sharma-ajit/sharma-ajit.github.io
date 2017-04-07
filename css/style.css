@@ -5,3 +5,9 @@ body {
   color: white;
   font-family: 'Ubuntu', sans-serif;
   }
+
+.header {
+  height: 200px;
+  text-align: center;
+  font-size: 100px;
+}
