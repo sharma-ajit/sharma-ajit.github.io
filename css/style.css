@@ -1,21 +1,69 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: crimson;
-  color: white;
+  background-color: #EAECEE;
+  color: #2E4053;
   font-family: 'Ubuntu', sans-serif;
   }
 
 .header {
-  height: 200px;
-  border: 1px solid white;
+  height: 400px;
+  background-color:  #154360;
   text-align: center;
+  position: relative;
   }
 
 .name {
-  font-size: 100px;
+  font-size: 60px;
+  color: #EAECEE;
+  border-top: 4px solid #EAECEE;
+  border-left: 4px solid #EAECEE;
+  border-right: 4px solid #EAECEE;
+  position: absolute;
+  bottom: 0;
+  height: 140px;
+  padding-top: 25px;
   }
 
 .bio {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+  height: 140px;
+  color: #2E4053;
   font-size: 48px;
+  border-bottom: 4px solid #154360;
+  border-left: 4px solid #154360;
+  border-right: 4px solid #154360;
+  font-size: 32px;
+  padding-top: 30px;
+}
+
+.navigation {
+  color: #EAECEE;
+  height: 40px;
+  width: 75%;
+  margin: auto;
+}
+
+.navigation ul {
+  padding-top: 20px;
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navigation ul li{
+  display: inline-block;
+  width: 12%;
+  font-size: 18px;
+}
+
+.quotes {
+  padding-top: 50px;
+  margin-top: 100px;
+  height: 250px;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Homemade Apple', cursive;
+  animation-delay: 1s;
 }
